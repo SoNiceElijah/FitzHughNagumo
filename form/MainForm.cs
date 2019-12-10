@@ -188,7 +188,7 @@ namespace nm
                         p.X = 0;
 
                     if(fileToWrite != null)
-                        fileToWrite.WriteLine(p.X + "\t" + p.U1 + "\t" + p.U2);
+                        fileToWrite.WriteLine(p.X.ToString().Replace(',','.') + "\t" + p.U1.ToString().Replace(',', '.') + "\t" + p.U2.ToString().Replace(',', '.'));
 
                     if (Math.Abs(p.X) > 10e+20)
                         break;
