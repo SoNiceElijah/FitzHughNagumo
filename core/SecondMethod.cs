@@ -132,7 +132,7 @@ namespace core
                     }
                 }
 
-                double e = 15 * s;
+                double e = 16 * s;
                 len = e;
 
                 next.U2 = next.U2 + e;
